@@ -39,3 +39,16 @@ cacheSolve <- function(x, ...) {
   inverse
   
 }
+
+
+## sample test case
+## source the file by typing source("cachematrix.R") in the console
+## Paste and run this in the console the following lines to test
+## x$set(matrix(c(3,4,2,16),2,2))
+## cacheSolve(x)
+
+## you should get
+##
+## [,1]   [,2]
+## [1,]  0.4 -0.050
+## [2,] -0.1  0.075
